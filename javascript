@@ -40,7 +40,7 @@ $(document).ready(function(){
     	} else if (operator === "/"){
     		number = (parseFloat(newnumber, 10) / parseFloat(number,10)).toString(10);
     	} else if (operator === "*"){
-    		number = (parseFloat(newnumber, 10) * parseFlaot(number,10)).toString(10);
+    		number = (parseFloat(newnumber, 10) * parseFloat(number,10)).toString(10);
     	}
     	totaldiv.text(number);
     	testNumLength(number);
